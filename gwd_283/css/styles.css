@@ -1,0 +1,28 @@
+
+body{
+  background: url('../images/cr_meme.png')no-repeat center center fixed;
+
+}
+#wrapper{
+  width:960px;
+  margin:auto;
+
+}
+header{
+
+
+  text-align: center;
+}
+li{
+  text-decoration-style: none;
+}
+ul{
+
+}
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
