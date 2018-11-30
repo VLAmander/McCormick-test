@@ -1,16 +1,36 @@
 
 body{
-  background: url('../images/cr_meme.png')no-repeat center center fixed;
-
+  font-family: 'Nunuto semibold';
+  text-align:center;
+  background: url('../images/hurston landing.png')no-repeat center center fixed;
+  background-size: cover;
 }
 #wrapper{
   width:960px;
   margin:auto;
 
 }
+p{
+color:white;
+text-align: center;
+
+
+}
+h2{
+color:white;
+text-align: center;
+word-wrap: normal;
+
+}
+img{
+
+}
+h1{
+color:white;
+text-align: left;
+word-wrap: normal;
+}
 header{
-
-
   text-align: center;
 }
 li{
@@ -25,4 +45,44 @@ button:focus {
 
 .navbar .dropdown-menu .form-control {
     width: 200px;
+}
+.hero{
+  width: 960px;
+  height: 200px
+  padding: auto;
+
+}
+#content-grid{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+  grid-template-rows:repeat(3, minmax(100px,auto));
+/*grid-auto-columns:minmax(200px,auto);*/
+  max-width: 960px;
+  margin:0 auto;
+
+}
+#content div{
+  background:;
+  padding:30px;
+  text-align: center;
+
+}
+#content div:nth-child(even,odd){
+
+padding right:210px;
+}
+.nested{
+background: rgba(0, 0, 0, 0.75);
+
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+padding right:210px;
+}
+
+.nestedp{
+  background-color:;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin: 0;
+
 }
