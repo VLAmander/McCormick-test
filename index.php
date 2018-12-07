@@ -13,7 +13,7 @@
 <div class="wrapper">
   <div class="hero">
   <img src="images\planetside.png" alt=""height=""width="85%">
-  <h1><img src="images\star-citizen-logo-png-7.png" alt=""height=""width="25%"></h1>
+  <h1><img src="images\star-citizen-logo-png-7.png" alt=""height=""width="50%"></h1>
   </div>
   <section id="section">
 
@@ -45,7 +45,7 @@
     </p>
     </p>
     </div>
-    
+
 
   </section>
     <?php
